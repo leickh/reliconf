@@ -1,0 +1,28 @@
+# SPDX-License-Identifier: MPL-2.0
+
+# Executables & Build Products
+
+## All files without suffix
+*
+!*/
+!*.*
+!LICENSE
+
+## ELF suffixes (Linux/various Unices)
+*.a
+*.elf
+*.o
+*.so
+
+## COFF/PE suffixes (Windows NT)
+*.dll
+*.exe
+*.lib
+
+## Build Folders
+.build/
+out/
+
+
+# Convenience Folder
+.private/
