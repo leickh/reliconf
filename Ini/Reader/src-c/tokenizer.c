@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MPL-2.0
 
-#include <configury/ini/internals/tokenizer.h>
-#include <configury/ini/internals/utility/ascii.h>
-#include <configury/ini/internals/utility/string.h>
+#include <reliconf/ini/internals/tokenizer.h>
+#include <reliconf/ini/internals/utility/ascii.h>
+#include <reliconf/ini/internals/utility/string.h>
 
 #include <stdlib.h>
 #include <string.h>

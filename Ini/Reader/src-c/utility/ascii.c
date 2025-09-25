@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MPL-2.0
 
-#include <configury/ini/internals/utility/ascii.h>
+#include <reliconf/ini/internals/utility/ascii.h>
 
 bool ini_is_lowercase(uint32_t character)
 {

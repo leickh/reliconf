@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MPL-2.0
 
-#ifndef CONFIGURY_INI_ASCII_UTILITY_H
-#define CONFIGURY_INI_ASCII_UTILITY_H
+#ifndef RELICONF_INI_ASCII_UTILITY_H
+#define RELICONF_INI_ASCII_UTILITY_H
 
 #include <stdbool.h>
 #include <stdint.h>
@@ -14,4 +14,4 @@ bool ini_is_digit(uint32_t character);
 bool ini_is_sign(uint32_t character);
 bool ini_is_blank(uint32_t character);
 
-#endif // CONFIGURY_INI_ASCII_UTILITY_H
+#endif // RELICONF_INI_ASCII_UTILITY_H

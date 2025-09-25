@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MPL-2.0
 
-#ifndef CONFIGURY_INI_DOCUMENT_H
-#define CONFIGURY_INI_DOCUMENT_H
+#ifndef RELICONF_INI_DOCUMENT_H
+#define RELICONF_INI_DOCUMENT_H
 
 #include <stdbool.h>
 #include <stdint.h>
@@ -127,4 +127,4 @@ struct IniDocument
     IniField *fields;
 };
 
-#endif // CONFIGURY_INI_DOCUMENT_H
+#endif // RELICONF_INI_DOCUMENT_H

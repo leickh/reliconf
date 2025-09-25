@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MPL-2.0
 
-#ifndef CONFIGURY_INI_TOKENIZER_H
-#define CONFIGURY_INI_TOKENIZER_H
+#ifndef RELICONF_INI_TOKENIZER_H
+#define RELICONF_INI_TOKENIZER_H
 
 #include <stdbool.h>
 #include <stdint.h>
@@ -77,4 +77,4 @@ void ini_write_tokens(
     const char *source
 );
 
-#endif // CONFIGURY_INI_TOKENIZER_H
+#endif // RELICONF_INI_TOKENIZER_H

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MPL-2.0
 
-#ifndef CONFIGURY_INI_STRING_UTILITY_H
-#define CONFIGURY_INI_STRING_UTILITY_H
+#ifndef RELICONF_INI_STRING_UTILITY_H
+#define RELICONF_INI_STRING_UTILITY_H
 
 #include <stdbool.h>
 #include <stdint.h>
@@ -18,4 +18,4 @@ bool ini_check_string_equality(
     uint32_t maximum_length
 );
 
-#endif // CONFIGURY_INI_STRING_UTILITY_H
+#endif // RELICONF_INI_STRING_UTILITY_H

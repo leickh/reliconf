@@ -85,8 +85,8 @@ def build_single_unit_test(test_name: str):
     except:
         pass
 
-    core_library_path = library_path.joinpath(".build", "libconfigury-ini-core.a")
-    reader_library_path = library_path.joinpath(".build", "libconfigury-ini-reader.a")
+    core_library_path = library_path.joinpath(".build", "reliconf-ini-core.a")
+    reader_library_path = library_path.joinpath(".build", "reliconf-ini-reader.a")
 
     if not os.path.isfile(core_library_path):
         print("\033[95mwarn(build-system) :: Library wasn't built before the tests. Building library...\033[0m")

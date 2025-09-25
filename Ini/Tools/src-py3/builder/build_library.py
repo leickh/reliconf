@@ -74,7 +74,7 @@ def build_library_module(module_name: str, output_name: str):
 
 
 def build_library():
-    build_library_module("Core", "libconfigury-ini-core.a")
-    build_library_module("Reader", "libconfigury-ini-reader.a")
+    build_library_module("Core", "reliconf-ini-core.a")
+    build_library_module("Reader", "reliconf-ini-reader.a")
 
 build_library()
