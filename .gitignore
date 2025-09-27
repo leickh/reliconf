@@ -22,7 +22,7 @@
 ## Build Folders
 .build/
 out/
-
+**/__pycache__
 
 # Convenience Folder
 .private/
