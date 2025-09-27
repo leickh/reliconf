@@ -3,11 +3,11 @@
 #ifndef RELICONF_INI_READER_H
 #define RELICONF_INI_READER_H
 
-#include <reliconf/ini/document.h>
-
-#include <stdbool.h>
+#include <stddef.h>
 #include <stdint.h>
 #include <stdio.h>
+
+#include <reliconf/ini/document.h>
 
 IniDocument ini_read_source(const char *source, size_t len_source);
 IniDocument ini_read_file(FILE *file, size_t offset, size_t len_data);

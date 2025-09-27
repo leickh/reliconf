@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MPL-2.0
 
-#include <reliconf/ini/internals/utility/string.h>
-#include <reliconf/ini/internals/utility/ascii.h>
+#include <reliconf/ini/utility/string.h>
+#include <reliconf/ini/utility/ascii.h>
 
 bool ini_check_string_equality_ignoring_case(
     const char *string_1,
